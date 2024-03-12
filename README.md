@@ -1,4 +1,4 @@
-# Python_Chat_Bot
+# ChatFlow
 
 The project uses natural language processing (NLP) to create a chatbot capable of understanding and responding to user queries. The chatbot is trained on a dataset of intents, which are predefined categories of user inputs. The data is preprocessed, tokenized, and transformed into numerical vectors using a bag-of-words approach. A neural network model is constructed using TensorFlow and TFLearn libraries, trained using softmax activation function and categorical cross-entropy loss.
 
