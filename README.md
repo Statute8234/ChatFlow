@@ -28,13 +28,13 @@ The project aims to create a chatbot that can understand and respond to user que
 
 ## Features
 
-• **Utilizes** natural language processing (NLP) to understand user queries.
-• **Trains** chatbot on predefined intent dataset.
-• **Data** preprocessing includes tokenization, stemming, numerical representation, and one-hot encoding.
-• **Constructs** neural network model using TensorFlow and TFLearn libraries.
-• **Uses** activation and loss functions.
-• **Trains** model on preprocessed data to associate patterns with specific intents.
-• **Saves** trained model for future use.
+- **Utilizes** natural language processing (NLP) to understand user queries.
+- **Trains** chatbot on predefined intent dataset.
+- **Data** preprocessing includes tokenization, stemming, numerical representation, and one-hot encoding.
+- **Constructs** neural network model using TensorFlow and TFLearn libraries.
+- **Uses** activation and loss functions.
+- **Trains** model on preprocessed data to associate patterns with specific intents.
+- **Saves** trained model for future use.
 
 ## Installation
 
@@ -54,14 +54,14 @@ To install ChatFlow, follow these steps:
 
 ## Usage
 
-• Utilizes natural language processing (NLP) and machine learning techniques.
-• Imports libraries like nltk, LancasterStemmer, tensorflow, tflearn, numpy, random, json, and pickle for data handling and serialization.
+- Utilizes natural language processing (NLP) and machine learning techniques.
+- Imports libraries like nltk, LancasterStemmer, tensorflow, tflearn, numpy, random, json, and pickle for data handling and serialization.
 • Loads training data from an intents.json file, tokenizing and stemming text patterns, and normalizing words.
-• Converts data into numerical arrays and output labels.
-• Saves preprocessed data into a data.pickle file to avoid repeated preprocessing.
-• Defines neural network architecture using tflearn, consisting of input layers, fully connected layers, and an output layer.
-• Trains model using preprocessed training data and saves it to a file (model.tflearn) to avoid retraining.
-• Trains model and saves it if model file does not exist, ensuring efficient reuse.
+- Converts data into numerical arrays and output labels.
+- Saves preprocessed data into a data.pickle file to avoid repeated preprocessing.
+- Defines neural network architecture using tflearn, consisting of input layers, fully connected layers, and an output layer.
+- Trains model using preprocessed training data and saves it to a file (model.tflearn) to avoid retraining.
+- Trains model and saves it if model file does not exist, ensuring efficient reuse.
 
 ## Contributing
 
