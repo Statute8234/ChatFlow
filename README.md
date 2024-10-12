@@ -1,14 +1,8 @@
 # ChatFlow
 
-[![Static Badge](https://img.shields.io/badge/nltk-blue)](https://www.nltk.org/)
-[![Static Badge](https://img.shields.io/badge/LancasterStemmer-green)](https://www.nltk.org/_modules/nltk/stem/lancaster.html)
-[![Static Badge](https://img.shields.io/badge/tensorflow--saver-orange)](https://www.tensorflow.org/api_docs/python/tf/train/Saver)
-[![Static Badge](https://img.shields.io/badge/numpy-red)](https://numpy.org/doc/stable/)
-[![Static Badge](https://img.shields.io/badge/tflearn-purple)](http://tflearn.org/)
-[![Static Badge](https://img.shields.io/badge/tensorflow-teal)](https://www.tensorflow.org/)
-[![Static Badge](https://img.shields.io/badge/random-yellow)](https://docs.python.org/3/library/random.html)
-[![Static Badge](https://img.shields.io/badge/json-pink)](https://docs.python.org/3/library/json.html)
-[![Static Badge](https://img.shields.io/badge/pickle-brown)](https://docs.python.org/3/library/pickle.html)
+[![Static Badge](https://img.shields.io/badge/nltk-blue)](https://pypi.org/project/nltk/)
+[![Static Badge](https://img.shields.io/badge/nltk-red)](https://pypi.org/project/nltk/)
+[![Static Badge](https://img.shields.io/badge/tensorflow-green)](https://pypi.org/project/tensorflow/)
 
 
 The project uses natural language processing (NLP) to create a chatbot capable of understanding and responding to user queries. The chatbot is trained on a dataset of intents, which are predefined categories of user inputs. The data is preprocessed, tokenized, and transformed into numerical vectors using a bag-of-words approach. A neural network model is constructed using TensorFlow and TFLearn libraries, trained using softmax activation function and categorical cross-entropy loss.
