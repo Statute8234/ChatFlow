@@ -1,7 +1,6 @@
 # ChatFlow
 
 [![Static Badge](https://img.shields.io/badge/nltk-blue)](https://pypi.org/project/nltk/)
-[![Static Badge](https://img.shields.io/badge/nltk-red)](https://pypi.org/project/nltk/)
 [![Static Badge](https://img.shields.io/badge/tensorflow-green)](https://pypi.org/project/tensorflow/)
 
 
